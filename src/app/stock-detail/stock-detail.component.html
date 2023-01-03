@@ -1,0 +1,31 @@
+<div class="card" *ngFor="let stock of stocks">
+  <div class="card-body col-md-3">
+   
+    <h5 class="card-title">{{stock?.StockSymbol?.description}}</h5> 
+    <button  class="button">{{stock?.StockSymbol?.displaySymbol}}</button>
+    <div (click)="deleteStock(stock.StockSymbol.displaySymbol)">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 20 20" >
+      <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+  </svg>
+  </div>
+  <div>
+    
+    <p class="heading">Change today: +{{stock?.StockQuote?.currentPrice}}%</p>
+    <p class="opining">Opening price:${{stock?.StockQuote?.change}}</p>
+    <p class="current">Current price: ${{stock?.StockQuote?.currentPrice}}</p>
+    <p class="high">High price…: ${{stock?.StockQuote?.currentPrice}}</p>
+      
+    <svg xmlns="http://www.w3.org/2000/svg" class="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="140" height="140"><path d="M24,8.5v7.5h-3v-4.879l-8,8-6-6-4.81,4.81L.069,15.81l6.931-6.931,6,6,5.879-5.879h-4.879v-3h7.5c1.379,0,2.5,1.121,2.5,2.5Z"/></svg>
+    <p class="abc" [routerLink]="['/stock-news',stock.StockSymbol.displaySymbol]">See sentiment details</p>
+          
+    </div>
+          
+          
+          
+          
+            <!-- <div class="col-md-4">
+            <h5 class="card-title"> INC</h5> -->
+          
+          
+        </div>
+        </div>

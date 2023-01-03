@@ -1,0 +1,7 @@
+<div class="card">
+<app-stock-tracker (addStocker)="addSymbol($event)"></app-stock-tracker>
+<app-stock-detail *ngIf="stockList.length>0" [stocks]=stockList (deleteSymbol)="deletestock($event)"></app-stock-detail>
+
+<!-- <app-stocknews [stockpanding]=stocknewList></app-stocknews> -->
+<!-- <app-stock-tracker *ngFor="let stocknew of stockList"></app-stock-tracker> -->
+</div>

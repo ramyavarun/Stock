@@ -1,0 +1,71 @@
+.card{
+    background-color: rgb(143, 164, 181);
+    height: 200vh;
+}
+.card-body{
+    height: 35vh;
+    width: 75vw;
+    background-color: white;
+  margin-left: 150px;
+  transform: translateY(250px);
+  border-radius: 20px;
+    
+}
+.heading1{
+    font-size: 35px;
+    color:rgb(59, 59, 77) ;
+    font-family: Georgia, serif;
+    margin-left: 100px;
+    transform: translateY(-20px);
+}
+.button{
+    background-color: rgb(86, 57, 216);
+    color: white;
+    margin-left: 25px;
+    transform: translateY(-60px);
+    border-radius: 8px;
+    height: 30px;
+    width:55px;
+    font-size: 10px;
+    font-family: "bolt";
+    border-color:  rgb(86, 57, 216);
+}
+ .flex-container {
+    display: flex;
+   
+  } 
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    transform: translateY(-50px);
+   
+  }
+  
+  .abc
+  {
+    text-align: center;
+ 
+    font-size: medium;
+    margin-top:40px;
+    color: #2626b1;
+   margin-left: 10px;
+    transform: translateY(-30px);
+
+  }
+  .bi{
+    margin-left: 380px;
+   transform: translateY(-68px);
+   color: #2626b1;
+
+  }
+ 
+ .stock-new{
+  background-color: #f1f1f1;
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+ }

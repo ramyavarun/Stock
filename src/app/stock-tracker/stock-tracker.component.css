@@ -1,0 +1,55 @@
+.card{
+  
+
+background-color: rgb(143, 164, 181);
+ height: 50vh;
+/* border-radius: 10px; */
+margin-top: 30px;
+
+
+
+}
+.card-body{
+    border-radius: 20px;
+     margin-left: 300px;
+    text-align: center;
+    height: 35vh;
+    width: 48vw;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    position: relative;
+    transform: translateY(-40px);
+    padding-top: 10px;
+   
+    
+    
+    
+}
+.card-title{
+    font-size: 35px;
+    color:rgb(59, 59, 77) ;
+    font-family: Georgia, serif;
+    padding-top: 40px;
+    margin: auto;
+}
+input{
+   
+      height: 35px;
+      border-radius: 20px;
+      border-color: black;
+      margin-top: 5px;
+      
+    }
+    .card-text{
+        color: rgb(55, 55, 56);
+    }
+
+    .aa{
+color: rgb(217, 217, 244);
+    }
+    .btn{
+        background-color: blueviolet;
+        color: white;
+        width: 100px;
+        margin: auto;
+    }
