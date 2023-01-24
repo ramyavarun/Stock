@@ -2,7 +2,6 @@ import { Component, Input, OnInit, SimpleChanges } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Stock } from '../Model/stock';
 import { StockNews } from '../Model/stocknews';
-import { StockQuote } from '../Model/stockQuote';
 import { StockService } from '../stock.service';
 
 @Component({
